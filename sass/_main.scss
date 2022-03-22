@@ -1,0 +1,1109 @@
+
+@import './variables';
+
+main {
+    margin-top: 2em;
+    padding: 3em 2em;
+
+    .section1 {
+
+        .image1_mobile {
+            width: 100%;
+        }
+        .image1_desktop {
+            display: none;
+        }
+
+        .interactiveVR {
+            padding: 1em;
+            background-color: #fff;
+
+            h2 {
+                padding: .5em 0;
+                font-size: 2em;
+                font-weight: 100;
+                text-align: center;
+                text-transform: uppercase;
+
+            }
+
+            p {
+                font-size: 17px;
+                line-height: 2;
+                text-align: center;
+                color: $DarkGray;
+            }
+        }
+    }
+
+    .section2 {
+        position: relative;
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                padding: 1em 0;
+                font-size: 2em;
+                font-weight: 100;
+                text-transform: uppercase;
+            }
+
+            .btn {
+                display: none;
+            }
+        }
+
+        .images {
+            display: grid;
+            gap: 20px;
+
+            .deep_earth {
+                position: relative;
+
+                .deepEarth_desktop {
+                    display: none;
+                }
+
+                .deepEarth_mobile {
+                    width: 100%;
+                }
+                .deepEarth_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: min-content;
+                }
+            }
+
+            .night_arcade {
+                position: relative;
+
+                .nightArcade_mobile {
+                    width: 100%
+                }
+                .nightArcade_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                .nightArcade_desktop {
+                    display: none;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: min-content;
+                }
+            }
+
+            .soccer_team {
+                position: relative;
+
+                .soccerTeam_mobile {
+                    width: 100%;
+                }
+                .soccerTeam_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                .soccerTeam_desktop {
+                    display: none;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: 21vw;
+                }
+            }
+
+            .grid {
+                position: relative;
+
+                .grid_mobile {
+                    width: 100%;
+                }
+                .grid_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                .grid_desktop {
+                    display: none;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: min-content;
+                }
+            }
+
+            .from_above {
+                position: relative;
+
+                .fromAbove_mobile {
+                    width: 100%;
+                }
+                .fromAbove_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                .fromAbove_desktop {
+                    display: none;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: min-content;
+                }
+            }
+
+            .pocket_borealis {
+                position: relative;
+
+                .borealis_mobile {
+                    width: 100%;
+                }
+                .borealis_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                .borealis_desktop {
+                    display: none;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: min-content;
+                }
+            }
+
+            .curiosity {
+                position: relative;
+
+                .curiosity_mobile {
+                    width: 100%;
+                }
+                .curiosity_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                .curiosity_desktop {
+                    display: none;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: min-content;
+                }
+            }
+
+            .fisheye {
+                position: relative;
+
+                .fisheye_mobile {
+                    width: 100%;
+                }
+                .fisheye_mobile:hover {
+                    filter: contrast(.5);
+                    cursor: pointer;
+                }
+
+                .fisheye_desktop {
+                    display: none;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1rem;
+                    margin-left: 1rem;
+                    width: 21vw;
+                }
+            }
+        }
+
+        .btn_bottom {
+            margin-top: 1em;
+            padding: 10px 30px;
+            border: 1px solid #000;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-weight: 600;
+            position: absolute;
+            bottom: -100px;
+            left: 30%;
+        }
+        .btn_bottom:hover {
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        margin-top: 2em;
+        padding: 3em 5em;
+    
+        .section1 {
+            height: 100vh;
+    
+            .image1_mobile {
+                display: none;
+            }
+            .image1_desktop {
+                display: inline-block;
+                width: 70%;
+            }
+    
+            .interactiveVR {
+                padding: 2em 3em;
+                background-color: #fff;
+                transform: translate(300px, -200px);
+                width: 50vw;
+                height: 65vh;
+    
+                h2 {
+                    padding: .5em 0;
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-align: start;
+                    text-transform: uppercase;
+    
+                }
+    
+                p {
+                    font-size: 17px;
+                    line-height: 2;
+                    text-align: start;
+                }
+            }
+        }
+
+        .section2 {
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                h2 {
+                    padding: 1em 0;
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-transform: uppercase;
+                }
+    
+                .btn {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    border: 1px solid #000;
+                    background-color: transparent;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .btn:hover {
+                    cursor: pointer;
+                    background-color: #000;
+                    color: #fff;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+    
+                .deep_earth {
+                    position: relative;
+    
+                    .deepEarth_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .deepEarth_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    .deepEarth_mobile {
+                        display: none;
+                        width: 100%;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .night_arcade {
+                    position: relative;
+    
+                    .nightArcade_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .nightArcade_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .nightArcade_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .soccer_team {
+                    position: relative;
+    
+                    .soccerTeam_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .soccerTeam_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .soccerTeam_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: 11vw;
+                    }
+                }
+    
+                .grid {
+                    position: relative;
+    
+                    .grid_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .grid_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .grid_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .from_above {
+                    position: relative;
+    
+                    .fromAbove_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .fromAbove_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .fromAbove_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .pocket_borealis {
+                    position: relative;
+    
+                    .borealis_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .borealis_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .borealis_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .curiosity {
+                    position: relative;
+    
+                    .curiosity_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .curiosity_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .curiosity_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .fisheye {
+                    position: relative;
+    
+                    .fisheye_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .fisheye_desktop {
+                        display: inline-block;
+                        width: 17vw;
+                    }
+                    .fisheye_desktop:hover {
+                        filter: contrast(.5);
+                        cursor: pointer;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 1rem;
+                        margin-left: 1rem;
+                        width: 11vw;
+                    }
+                }
+            }
+
+            .btn_bottom {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        margin-top: 2em;
+        padding: 3em 5em;
+    
+        .section1 {
+    
+            .image1_mobile {
+                display: none;
+            }
+            .image1_desktop {
+                display: inline-block;
+                width: 70%;
+            }
+    
+            .interactiveVR {
+                padding: 2em 3em;
+                background-color: #fff;
+                transform: translate(400px, -250px);
+                width: 50vw;
+                height: 65vh;
+    
+                h2 {
+                    padding: .5em 0;
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-align: start;
+                    text-transform: uppercase;
+    
+                }
+    
+                p {
+                    font-size: 17px;
+                    line-height: 2;
+                    text-align: start;
+                }
+            }
+        }
+
+        .section2 {
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                h2 {
+                    padding: 1em 0;
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-transform: uppercase;
+                }
+    
+                .btn {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    border: 1px solid #000;
+                    background-color: transparent;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 14px;
+    
+                .deep_earth {
+                    position: relative;
+    
+                    .deepEarth_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    .deepEarth_mobile {
+                        display: none;
+                        width: 100%;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .night_arcade {
+                    position: relative;
+    
+                    .nightArcade_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .nightArcade_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .soccer_team {
+                    position: relative;
+    
+                    .soccerTeam_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .soccerTeam_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: 11vw;
+                    }
+                }
+    
+                .grid {
+                    position: relative;
+    
+                    .grid_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .grid_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .from_above {
+                    position: relative;
+    
+                    .fromAbove_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .fromAbove_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .pocket_borealis {
+                    position: relative;
+    
+                    .borealis_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .borealis_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .curiosity {
+                    position: relative;
+    
+                    .curiosity_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .curiosity_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .fisheye {
+                    position: relative;
+    
+                    .fisheye_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .fisheye_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: 10vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    main {
+        margin-top: 2em;
+        padding: 3em 5em;
+    
+        .section1 {
+    
+            .image1_mobile {
+                display: none;
+            }
+            .image1_desktop {
+                display: inline-block;
+                width: 70%;
+            }
+    
+            .interactiveVR {
+                padding: 2em 3em;
+                background-color: #fff;
+                transform: translate(500px, -350px);
+                width: 40vw;
+                height: 60vh;
+    
+                h2 {
+                    padding: .5em 0;
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-align: start;
+                    text-transform: uppercase;
+    
+                }
+    
+                p {
+                    font-size: 17px;
+                    line-height: 2;
+                    text-align: start;
+                }
+            }
+        }
+
+        .section2 {
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                h2 {
+                    padding: 1em 0;
+                    font-size: 2em;
+                    font-weight: 100;
+                    text-transform: uppercase;
+                }
+    
+                .btn {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    border: 1px solid #000;
+                    background-color: transparent;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+            }
+
+            .images {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 14px;
+    
+                .deep_earth {
+                    position: relative;
+    
+                    .deepEarth_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    .deepEarth_mobile {
+                        display: none;
+                        width: 100%;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .night_arcade {
+                    position: relative;
+    
+                    .nightArcade_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .nightArcade_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .soccer_team {
+                    position: relative;
+    
+                    .soccerTeam_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .soccerTeam_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: 10vw;
+                    }
+                }
+    
+                .grid {
+                    position: relative;
+    
+                    .grid_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .grid_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .from_above {
+                    position: relative;
+    
+                    .fromAbove_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .fromAbove_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .pocket_borealis {
+                    position: relative;
+    
+                    .borealis_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .borealis_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .curiosity {
+                    position: relative;
+    
+                    .curiosity_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .curiosity_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: min-content;
+                    }
+                }
+    
+                .fisheye {
+                    position: relative;
+    
+                    .fisheye_mobile {
+                        width: 100%;
+                        display: none;
+                    }
+    
+                    .fisheye_desktop {
+                        display: inline-block;
+                        width: 21vw;
+                    }
+    
+                    p {
+                        text-transform: uppercase;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 1rem;
+                        width: 10vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
